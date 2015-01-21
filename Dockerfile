@@ -25,4 +25,4 @@ RUN yum -y install gcc
 RUN pip install pymssql
 RUN pip install prettytable
 RUN pip install argparse
-
+RUN pip install python-dateutil

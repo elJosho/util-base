@@ -6,3 +6,9 @@ Build and run
 
     $ docker build -t arthur/util-base:1.0 .
     $ docker run -ti arthur/util-base:1.0 bash
+
+
+    Dockerfile
+    ----------
+    FROM arthurcrawford/monitor-base
+

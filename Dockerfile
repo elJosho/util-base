@@ -5,6 +5,7 @@ MAINTAINER Art
 # Update yum
 RUN yum makecache
 
+RUN yum install -y zip
 RUN yum install -y wget
 RUN yum install -y epel-release
 

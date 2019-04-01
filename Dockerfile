@@ -1,6 +1,6 @@
 # Docker base image for general util
-FROM centos:centos6
-MAINTAINER Art
+FROM centos:centos7
+MAINTAINER elJosho
 
 # Update yum
 RUN yum makecache
